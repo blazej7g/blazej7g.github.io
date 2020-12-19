@@ -6,6 +6,8 @@
 body {
   margin: 0;
   position: relative;
+  background-color: whitesmoke;
+  color: black;
 }
 
 body .topHeader {
