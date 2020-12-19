@@ -2,21 +2,28 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     position: relative;
     background-color: whitesmoke;
     color: black;
     .topHeader{
+        text-align: center;
         min-height: 100vh;
         position: sticky;
         top: 0;
         nav{
             position: absolute;
             display: flex;
+            text-align: center;
             justify-content: space-between;
+            cursor: pointer;
             a{
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                color: black;
                 padding: 0 2%;
             }
         }
@@ -25,6 +32,11 @@ body{
     .container{
         display: flex;
         min-height: 100vh;
+        .content{
+            
+            margin: auto;
+            
+        }
     }
 
 }
