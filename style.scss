@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    position: relative;
+    .topHeader{
+        min-height: 100vh;
+        position: sticky;
+        top: 0;
+        nav{
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            a{
+                display: flex;
+                align-items: center;
+                padding: 0 2%;
+            }
+        }
+     
+    }
+    .container{
+        display: flex;
+        min-height: 100vh;
+    }
+
+}
