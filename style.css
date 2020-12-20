@@ -65,10 +65,12 @@ body main .firstarticle {
   padding: 2%;
 }
 
-body main .firstarticle .h3 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body main .firstarticle .aboutme {
+  padding: 2%;
+}
+
+body main .firstarticle .aboutme .img {
+  max-width: 100%;
 }
 
 body main .secondarticle {
@@ -83,6 +85,10 @@ body main .secondarticle .music {
   padding: 2%;
 }
 
+body main .secondarticle .music .img {
+  max-width: 100%;
+}
+
 body main .secondarticle .travel {
   padding: 2%;
 }
@@ -95,7 +101,40 @@ body main .thirdarticle {
   padding: 2%;
 }
 
+body main .thirdarticle .html {
+  max-width: 100%;
+  padding: 2%;
+}
+
+body main .thirdarticle .css {
+  max-width: 100%;
+  padding: 2%;
+}
+
+body main .thirdarticle .javascript {
+  max-width: 100%;
+  padding: 2%;
+}
+
 body main .fourtharticle {
   padding: 2%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3%;
+}
+
+footer .containersecond {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+  font-size: 2em;
+}
+
+footer .containerthird {
+  margin: 0;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
