@@ -17,6 +17,7 @@ body .topHeader {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding: 1%;
 }
 
 body nav {
@@ -29,6 +30,8 @@ body nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   cursor: pointer;
+  margin-left: 2%;
+  padding: 1%;
 }
 
 body nav a {
