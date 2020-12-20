@@ -19,13 +19,7 @@ body .topHeader {
   top: 0;
 }
 
-body .topHeader a {
-  -webkit-box-flex: 10;
-      -ms-flex: 10;
-          flex: 10;
-}
-
-body .topHeader nav {
+body nav {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,7 +31,7 @@ body .topHeader nav {
   cursor: pointer;
 }
 
-body .topHeader nav a {
+body nav a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,21 +50,44 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   height: 100vh;
+  padding: 2%;
 }
 
 body .container .content {
   margin: auto;
 }
 
+body main {
+  padding: 2%;
+}
+
 body main .firstarticle {
   padding: 2%;
 }
 
-body main .firstarticle .aboutme {
-  padding: 2%;
+body main .firstarticle .h3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body main .secondarticle {
+  padding: 2%;
+}
+
+body main .secondarticle .football {
+  padding: 2%;
+}
+
+body main .secondarticle .music {
+  padding: 2%;
+}
+
+body main .secondarticle .travel {
+  padding: 2%;
+}
+
+body main .secondarticle .history {
   padding: 2%;
 }
 
