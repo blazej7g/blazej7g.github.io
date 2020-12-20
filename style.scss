@@ -12,6 +12,7 @@ body{
         text-align: center;
         position: sticky;
         top: 0;
+        }
         nav{
             position: absolute;
             display: flex;
@@ -31,10 +32,41 @@ body{
     .container{
         display: flex;
         height: 100vh;
+        padding: 2%;
         .content{
-            
             margin: auto;
             
+        }
+    }
+    main{
+        padding: 2%;
+        .firstarticle{
+            padding: 2%;
+            .h3{
+                align-items: center;
+            }
+        }
+        .secondarticle{
+            padding: 2%;
+            .football{
+                padding: 2%;
+                
+            }
+            .music{
+                padding: 2%;
+            }
+            .travel{
+                padding: 2%;
+            }
+            .history{
+                padding: 2%;
+            }
+        }
+        .thirdarticle{
+            padding: 2%;
+        }
+        .fourtharticle{
+            padding: 2%;
         }
     }
 

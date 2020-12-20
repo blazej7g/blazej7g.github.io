@@ -19,6 +19,12 @@ body .topHeader {
   top: 0;
 }
 
+body .topHeader a {
+  -webkit-box-flex: 10;
+      -ms-flex: 10;
+          flex: 10;
+}
+
 body .topHeader nav {
   position: absolute;
   display: -webkit-box;
@@ -54,5 +60,25 @@ body .container {
 
 body .container .content {
   margin: auto;
+}
+
+body main .firstarticle {
+  padding: 2%;
+}
+
+body main .firstarticle .aboutme {
+  padding: 2%;
+}
+
+body main .secondarticle {
+  padding: 2%;
+}
+
+body main .thirdarticle {
+  padding: 2%;
+}
+
+body main .fourtharticle {
+  padding: 2%;
 }
 /*# sourceMappingURL=style.css.map */
