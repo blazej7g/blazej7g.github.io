@@ -61,6 +61,24 @@ body .container .content {
   margin: auto;
 }
 
+body .container .content .h1 {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .content .img {
+  max-width: 100%;
+}
+
+body .container .content .h2 {
+  text-align: center;
+}
+
 body main {
   padding: 2%;
 }
@@ -71,6 +89,7 @@ body main .firstarticle {
 
 body main .firstarticle .h3 {
   padding: 2%;
+  text-align: center;
 }
 
 body main .firstarticle .aboutme {

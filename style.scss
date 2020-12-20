@@ -38,6 +38,17 @@ body{
         padding: 2%;
         .content{
             margin: auto;
+            .h1{
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            .img{
+                max-width: 100%;
+            }
+            .h2{
+                text-align: center;
+            }
             
         }
     }
@@ -47,6 +58,7 @@ body{
             padding: 2%;
             .h3{
                 padding: 2%;
+                text-align: center;
             }
             .aboutme{
                 padding: 2%;
