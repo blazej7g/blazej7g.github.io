@@ -65,6 +65,10 @@ body main .firstarticle {
   padding: 2%;
 }
 
+body main .firstarticle .h3 {
+  padding: 2%;
+}
+
 body main .firstarticle .aboutme {
   padding: 2%;
 }
@@ -117,6 +121,14 @@ body main .thirdarticle .javascript {
 }
 
 body main .fourtharticle {
+  padding: 2%;
+}
+
+body main .fourtharticle .h3 {
+  padding: 2%;
+}
+
+body main .fourtharticle .p {
   padding: 2%;
 }
 
