@@ -85,6 +85,10 @@ body main .secondarticle .football {
   padding: 2%;
 }
 
+body main .secondarticle .football .img {
+  max-width: 100%;
+}
+
 body main .secondarticle .music {
   padding: 2%;
 }
