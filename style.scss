@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -14,12 +17,11 @@ body{
         position: sticky;
         top: 0;
         padding: 1%;
-        }
+        background-color: white;
         nav{
-            position: absolute;
             display: flex;
             text-align: center;
-            justify-content: space-between;
+            justify-content: center;
             cursor: pointer;
             margin-left: 2%;
             padding: 1%;
@@ -29,58 +31,41 @@ body{
                 justify-content: center;
                 color: black;
                 padding: 0 2%;
+                text-decoration: none;
             }
         }
+    }
      
     .container{
         display: flex;
-        height: 100vh;
+        min-height: 100vh;
         padding: 2%;
         .content{
             margin: auto;
-            .h1{
-                text-align: center;
-                align-items: center;
-                justify-content: center;
-            }
-            .img{
-                max-width: 100%;
-            }
-            .h2{
+            h1 h2{
                 text-align: center;
             }
-            
         }
     }
     main{
         padding: 2%;
+        h3{
+            padding: 2%;
+            text-align: center;
+        }
         .firstarticle{
             padding: 2%;
-            .h3{
-                padding: 2%;
-                text-align: center;
-            }
             .aboutme{
                 padding: 2%;
-                .img{
-                    max-width: 100%;
-                }
             }
         }
         .secondarticle{
             padding: 2%;
             .football{
-                padding: 2%;
-                .img{
-                    max-width: 100%;
-                }
-                
+                padding: 2%;       
             }
             .music{
                 padding: 2%;
-                .img{
-                    max-width: 100%;
-                }
             }
             .travel{
                 padding: 2%;
@@ -91,41 +76,43 @@ body{
         }
         .thirdarticle{
             padding: 2%;
-            .html{
-                max-width: 100%;
-                padding: 2%;
+            text-align: center;
+            b,p{
+                text-align: left;
+                width: 100%;
+                display: block;
             }
-            .css{
-                max-width: 100%;
-                padding: 2%;
-            }
-            .javascript{
+            .html, .css, .javascript{
                 max-width: 100%;
                 padding: 2%;
             }
         }
         .fourtharticle{
             padding: 2%;
-            .h3{
+            h3{
                 padding: 2%;
             }
-            .p{
+            p{
                 padding: 2%;
             }
         }
     }
+    footer{
+        text-align: center;
+        margin-top: 3%;
+        .containersecond{
+            align-items: center;
+            display: inline-block;
+            font-size: 2em;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .containerthird{
+            margin: 0;
+            font-size: 10px;
+        }
+    }
 
-}
-footer{
-    text-align: center;
-    margin-top: 3%;
-    .containersecond{
-        align-items: center;
-        display: inline-block;
-        font-size: 2em;
-    }
-    .containerthird{
-        margin: 0;
-        font-size: 10px;
-    }
 }

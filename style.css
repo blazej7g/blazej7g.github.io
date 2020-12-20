@@ -3,6 +3,10 @@
           box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-family: 'Playfair Display', serif;
@@ -19,23 +23,23 @@ body .topHeader {
   position: sticky;
   top: 0;
   padding: 1%;
+  background-color: white;
 }
 
-body nav {
-  position: absolute;
+body .topHeader nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
   margin-left: 2%;
   padding: 1%;
 }
 
-body nav a {
+body .topHeader nav a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,13 +51,14 @@ body nav a {
           justify-content: center;
   color: black;
   padding: 0 2%;
+  text-decoration: none;
 }
 
 body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   padding: 2%;
 }
 
@@ -61,21 +66,7 @@ body .container .content {
   margin: auto;
 }
 
-body .container .content .h1 {
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body .container .content .img {
-  max-width: 100%;
-}
-
-body .container .content .h2 {
+body .container .content h1 h2 {
   text-align: center;
 }
 
@@ -83,21 +74,17 @@ body main {
   padding: 2%;
 }
 
-body main .firstarticle {
-  padding: 2%;
-}
-
-body main .firstarticle .h3 {
+body main h3 {
   padding: 2%;
   text-align: center;
 }
 
-body main .firstarticle .aboutme {
+body main .firstarticle {
   padding: 2%;
 }
 
-body main .firstarticle .aboutme .img {
-  max-width: 100%;
+body main .firstarticle .aboutme {
+  padding: 2%;
 }
 
 body main .secondarticle {
@@ -108,16 +95,8 @@ body main .secondarticle .football {
   padding: 2%;
 }
 
-body main .secondarticle .football .img {
-  max-width: 100%;
-}
-
 body main .secondarticle .music {
   padding: 2%;
-}
-
-body main .secondarticle .music .img {
-  max-width: 100%;
 }
 
 body main .secondarticle .travel {
@@ -130,19 +109,16 @@ body main .secondarticle .history {
 
 body main .thirdarticle {
   padding: 2%;
+  text-align: center;
 }
 
-body main .thirdarticle .html {
-  max-width: 100%;
-  padding: 2%;
+body main .thirdarticle b, body main .thirdarticle p {
+  text-align: left;
+  width: 100%;
+  display: block;
 }
 
-body main .thirdarticle .css {
-  max-width: 100%;
-  padding: 2%;
-}
-
-body main .thirdarticle .javascript {
+body main .thirdarticle .html, body main .thirdarticle .css, body main .thirdarticle .javascript {
   max-width: 100%;
   padding: 2%;
 }
@@ -151,20 +127,20 @@ body main .fourtharticle {
   padding: 2%;
 }
 
-body main .fourtharticle .h3 {
+body main .fourtharticle h3 {
   padding: 2%;
 }
 
-body main .fourtharticle .p {
+body main .fourtharticle p {
   padding: 2%;
 }
 
-footer {
+body footer {
   text-align: center;
   margin-top: 3%;
 }
 
-footer .containersecond {
+body footer .containersecond {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -172,7 +148,12 @@ footer .containersecond {
   font-size: 2em;
 }
 
-footer .containerthird {
+body footer .containersecond a {
+  text-decoration: none;
+  color: black;
+}
+
+body footer .containerthird {
   margin: 0;
   font-size: 10px;
 }
